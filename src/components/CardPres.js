@@ -9,7 +9,7 @@ const CardPres = (props) => {
         <div className="timeline__content">
             <AvatarWrapper textAlign={props.textAlign} >
                 {props.content.employees.map(employee => 
-                  <Avatar width="40" height="40" src={`employees/${employee.name}.jpg`} />  
+                  <Avatar width="40" height="40" src={`https://raw.githubusercontent.com/fpudo/recognition-wall/master/build/employees/${employee.name}.jpg`} />  
                 )}
             </AvatarWrapper> 
             <h3 className="timeline__headline">{props.content.date}</h3> 
